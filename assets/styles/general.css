@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--color-background-color);
+}
+
+/* img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+} */
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+:root {
+    --color-black: black;
+    --color-light-brown: #856404;
+    --color-yellow: #ebab21;
+    --color-brown: #640f11;
+    --color-blueviolet: blueviolet;
+    --color-lightblack: #1d2129;
+    --color-background-color: #e9ebee;
+    --font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    ;
+    --margin: 0 auto;
+    --width: 80%;
+}
+
+main{
+    margin: var(--margin);
+    width: var(--width);
+}
+
+
+/* @media screen and (max-width: 568px) {
+    .hero>.herocontent>.texthead>h3{
+        font-size: 30px;
+    }
+   
+} */
+
+/* @media screen and (max-width: 568px) */
+
